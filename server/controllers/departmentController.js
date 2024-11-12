@@ -16,7 +16,7 @@ const addDepartment = async (req, res) => {
         const { department_name, contact_email } = req.body;
         const newDepartment = new Department({ department_name, contact_email });
         await newDepartment.save();
-        res.status(201).send('Department added successfully');
+        res.status(201).json({"message": "Department created", newDepartment});
     } catch (err) {
         res.status(400).send(err.message);
     }
