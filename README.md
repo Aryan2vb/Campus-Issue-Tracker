@@ -27,7 +27,7 @@ This is a RESTful API for managing users, departments, and issues, built with Ex
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/issue-tracker-api.git
+    git clone https://github.com/Aryan2vb/issue-tracker-api.git
     cd issue-tracker-api
     ```
 2. Install the required dependencies:
